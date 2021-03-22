@@ -1,2 +1,5 @@
-# qitzuphyn-writeup
-A certain repository to store my writeups and deploy them as a web app.
+# There is nothing fucking interesting here
+- Do ya thang
+---
+permalink: /index.html
+---

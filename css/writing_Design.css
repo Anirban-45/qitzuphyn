@@ -1,0 +1,104 @@
+body {
+  color: white !important;
+  background-color: #212121 !important;
+  margin: 0;
+}
+.divider{
+  margin: 25px;
+  background-color: #616161;
+  height: 1.5px;
+  width: 95%;
+  align-self: center;
+
+}
+.wide{
+  width: 100vw !important;
+  display: flex;
+  justify-content: center;
+}
+.contents{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1300px;
+}
+.head{
+  margin-top: 0px !important;
+  margin-bottom: 20px !important;
+  width: 80vw;
+}
+.avatar{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center;
+}
+
+.lw{
+  font-size: 40px;
+  margin: 0;
+  display: flex !important;
+  align-items: center !important;
+}
+.image_main{
+  border-radius: 50%;
+}
+.yeh{
+  display: flex !important;
+  align-items: center !important;
+}
+.contents a{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#writercards{
+  width: 65vw;
+  max-width: 1000px;
+  background-color: #333333;
+  border-bottom: 2px solid #141414;
+  border-right: 2px solid #141414;
+  border-radius: 0px;
+  box-shadow: none;
+}
+#writercards .content{
+  color: white;
+  display: flex;
+
+  align-items: center;
+}
+#writercards .content h3, #writercards .content .meta{
+  margin: 10px
+}
+#writercards .content .nametext{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ #writercards .content .meta{
+   color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: flex-start;
+   margin-left: auto;
+}
+#writercards .content button{
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px ;
+  height: 35px;
+}
+footer{
+  width: 100vw;
+  position: sticky;
+  height: 50px;
+  background-color: #e0e0e0;
+  color: black;
+  text-align: center;
+  bottom: 0;
+}
+footer p {
+  padding-top: 15px !important;
+}
