@@ -78,7 +78,7 @@ body {
 }
 footer{
   width: 100vw;
-  position: sticky;
+  position: relative;
   height: 50px;
   background-color: #e0e0e0;
   color: black;
